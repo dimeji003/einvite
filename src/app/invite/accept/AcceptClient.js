@@ -9,19 +9,19 @@ export default function AcceptClient() {
   const name = params?.get('name') || 'Guest';
 
   const handleAccept = () => {
-    router.push(`/invite/page?name=${encodeURIComponent(name)}`);
+    router.push(`/invite?name=${encodeURIComponent(name)}`);
   };
 
   return (
     <div
-      className="min-h-screen flex items-center justify-center p-4"
+      className="min-h-screen relative flex items-center justify-center p-4"
       style={{
         backgroundImage: "url('/assets/invitepic.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <div className="bg-white p-8 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
+      <div className="bg-white absolute bottom-7 p-8 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
         <h1 className="text-3xl font-bold mb-6 text-black">
           Welcome, {name}!
         </h1>

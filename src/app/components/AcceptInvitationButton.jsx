@@ -1,4 +1,4 @@
-'use client';
+/*'use client';
 
 import { useRouter } from 'next/navigation';
 import { ArrowRight } from 'lucide-react';
@@ -19,4 +19,4 @@ export default function AcceptInvitationButton({ className }) {
       <ArrowRight className="w-5 h-5" />
     </button>
   );
-}
+}*/

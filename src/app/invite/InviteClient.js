@@ -2,7 +2,7 @@
 export const dynamic = 'force-dynamic';
 
 import { useRouter, useSearchParams } from 'next/navigation';
-import { guests } from '../../data/guests';
+import { guests } from '../data/guests';
 import { MapPin } from "lucide-react";
 
 export default function InvitePage() {
