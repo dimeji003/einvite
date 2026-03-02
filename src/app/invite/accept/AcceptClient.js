@@ -22,7 +22,7 @@ export default function AcceptClient() {
       }}
     >
       <div className="bg-white absolute bottom-7 p-8 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
-        <h1 className="text-3xl font-bold mb-6 text-black">
+        <h1 className="text-2xl font-bold mb-6 text-black">
           Welcome, {name}!
         </h1>
 
