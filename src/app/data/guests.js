@@ -2,17 +2,17 @@ import React from 'react'
 
 export const guests = [
   {
-    name: "dimeji",
+    name: "Dimeji",
     seat: "Table 3 — Seat 5",
     access: "VIP",
   },
   {
-    name: "sarah",
+    name: "Sarah",
     seat: "Table 1 — Seat 2",
     access: "Premium",
   },
   {
-    name: "john",
+    name: "John",
     seat: "Table 5 — Seat 1",
     access: "Regular",
   },
