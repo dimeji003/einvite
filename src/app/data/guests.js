@@ -16,6 +16,11 @@ export const guests = [
     seat: "Table 5 — Seat 1",
     access: "Regular",
   },
+  {
+    name: "Galaxy",
+    seat: "Table 5 — Seat 7",
+    access: "VIP",
+  },
 ];
 
 export default function Guests() {
