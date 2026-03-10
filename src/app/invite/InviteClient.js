@@ -23,8 +23,7 @@ export default function InvitePage() {
     <div className="min-h-screen flex justify-center items-center bg-pink-50 p-6">
 
       {/* CARD */}
-      <div className="bg-white rounded-xl shadow-lg p-8 max-w-md w-full text-black
-                      flex flex-col items-center text-center gap-4">
+      <div className="bg-white rounded-xl shadow-lg p-8 max-w-md w-full text-black flex flex-col items-center text-center gap-4">
 
         {/* TITLE */}
         <h1 className="text-3xl font-bold">
