@@ -14,8 +14,8 @@ export const guests = [
 
   { name: "Pastor Idowu", seat: "Table 2 — Seat 1", access: "VIP" },
   { name: "Mrs Idowu", seat: "Table 2 — Seat 2", access: "VIP" },
-  { name: "Pastor Akin", seat: "Table 2 — Seat 3", access: "VIP" },
-  { name: "Mrs Akin", seat: "Table 2 — Seat 4", access: "VIP" },
+  { name: "Teejay Elias", seat: "Table 2 — Seat 3", access: "VIP" },
+  { name: "Fresh", seat: "Table 2 — Seat 4", access: "VIP" },
   { name: "Abba Mahmoud", seat: "Table 2 — Seat 5", access: "VIP" },
   { name: "Patty Abba Mahmoud", seat: "Table 2 — Seat 6", access: "VIP" },
   { name: "Isa Aremu", seat: "Table 2 — Seat 7", access: "VIP" },
@@ -140,7 +140,7 @@ export const guests = [
 
   { name: "MUSA Ibrahim 1", seat: "Table 14 — Seat 1", access: "Regular" },
   { name: "MUSA Ibrahim 2", seat: "Table 14 — Seat 2", access: "Regular" },
-  { name: "Salisu Nuhu 1", seat: "Table 14 — Seat 3", access: "Regular" },
+  { name: "Salzisu Nuhu 1", seat: "Table 14 — Seat 3", access: "Regular" },
   { name: "Salisu Nuhu 2", seat: "Table 14 — Seat 4", access: "Regular" },
   { name: "Adams Oshinmole 2", seat: "Table 14 — Seat 6", access: "Regular" },
   { name: "Remi Adesoye 1", seat: "Table 14 — Seat 7", access: "Regular" },
@@ -226,9 +226,9 @@ export const guests = [
   { name: "Onyinye", seat: "Table 22 — Seat 9", access: "Regular" },
   { name: "Onyinye Husband", seat: "Table 22 — Seat 10", access: "Regular" },
 
-  { name: "Teejay Elias", seat: "Table 23 — Seat 1", access: "Regular" },
-  { name: "Fresh", seat: "Table 23 — Seat 2", access: "Regular" },
-  { name: "Tj Idowu", seat: "Table 23 — Seat 3", access: "Regular" },
+  { name: "Pastor Akin", seat: "Table 23 — Seat 1", access: "Regular" },
+  { name: "Mrs Akin", seat: "Table 23 — Seat 2", access: "Regular" },
+  { name: "Tj Idowu", seat: "Table 23 — Sesat 3", access: "Regular" },
   { name: "Jackson", seat: "Table 23 — Seat 4", access: "Regular" },
   { name: "AbdulMalik Elmarzuq", seat: "Table 23 — Seat 5", access: "Regular" },
   { name: "Razaq", seat: "Table 23 — Seat 6", access: "Regular" },
@@ -283,5 +283,10 @@ export const guests = [
 
   { name: "Abdallah - Saudi Arabia", seat: "Table 28 — Seat 1", access: "Regular" },
   { name: "Deji", seat: "Table 28 — Seat 2", access: "Regular" },
+  { name: "Fatai Adekoya", seat: "Table 28 — Seat 3", access: "Regular" },
+  { name: "Ademola Alarape", seat: "Table 28 — Seat 4", access: "Regular" },
+  { name: "Sadie Namama", seat: "Table 28 — Seat 5", access: "Regular" },
+  { name: "Debodun", seat: "Table 28 — Seat 6", access: "Regular" },
+  { name: "Oladapo Taiwo", seat: "Table 28 — Seat 7", access: "Regular" },
 
 ];
