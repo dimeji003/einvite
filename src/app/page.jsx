@@ -17,21 +17,21 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-50 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-amber-50 p-4">
       <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-3xl shadow-lg w-full max-w-md text-center">
-        <h1 className="text-3xl text-black font-bold mb-4">Special Celebration</h1>
+        <h1 className="text-3xl text-black font-bold mb-4">Special Celebration of Alhaja Riskat Adelabu</h1>
         <p className="text-gray-600 mb-6">Enter your name to view your invitation</p>
         <input
           type="text"
           value={inputName}
           onChange={(e) => setInputName(e.target.value)}
           placeholder="Your full name"
-          className="w-full px-4 py-3 text-black border-b-2 border-gray-300 focus:border-pink-400 outline-none text-center"
+          className="w-full px-4 py-3 text-black border-b-2 border-gray-300 focus:border-amber-900 outline-none text-center"
           required
         />
         <button
           type="submit"
-          className="w-full bg-gradient-to-r from-pink-400 to-rose-400 text-white py-3 rounded-full flex items-center justify-center gap-2"
+          className="w-full bg-gradient-to-r from-amber-800 to-amber-950 text-white py-3 rounded-full flex items-center justify-center gap-2"
         >
           VIEW INVITATION
           <ArrowRight className="w-5 h-5" />

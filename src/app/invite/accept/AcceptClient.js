@@ -16,12 +16,13 @@ export default function AcceptClient() {
     <div
       className="min-h-screen relative flex items-center justify-center p-4"
       style={{
-        backgroundImage: "url('/assets/invitepic.png')",
+        backgroundImage: "url('/assets/riskat.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        
       }}
     >
-      <div className="bg-white absolute bottom-7 p-8 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
+      <div className="bg-white absolute bottom-36 p-8 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
         <h1 className="text-2xl font-bold mb-6 text-black">
           Welcome, {name}!
         </h1>
@@ -32,7 +33,7 @@ export default function AcceptClient() {
 
         <button
           onClick={handleAccept}
-          className="w-full bg-gradient-to-r from-pink-400 to-rose-400 text-white py-3 rounded-full flex items-center justify-center gap-2"
+          className="w-full bg-gradient-to-r from-amber-800 to-amber-950 text-white py-3 rounded-full flex items-center justify-center gap-2"
         >
           Accept Invitation
           <ArrowRight className="w-5 h-5" />

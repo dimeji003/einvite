@@ -20,7 +20,7 @@ export default function InvitePage() {
   );
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-pink-50 p-6">
+    <div className="min-h-screen flex justify-center items-center bg-amber-50 p-6">
 
       {/* CARD */}
       <div className="bg-white rounded-xl shadow-lg p-8 max-w-md w-full text-black flex flex-col items-center text-center gap-4">
@@ -39,7 +39,7 @@ export default function InvitePage() {
         >
           <MapPin
             size={48}
-            className="text-pink-400 hover:text-pink-600 transition"
+            className="text-amber-700 hover:text-amber-400 transition"
           />
         </a>
 
