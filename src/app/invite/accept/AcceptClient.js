@@ -33,8 +33,8 @@ export default function AcceptClient() {
       }
     }
   `}</style>
-      <div className="bg-white absolute md:bottom-20 bottom-7 left-1/2 md:left-auto md:right-12  -translate-x-1/2 md:translate-x-0 p-6 md:p-8 right-12 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
-        <h1 className="text-3xl font-bold mb-6 text-black">
+      <div className="bg-white absolute md:bottom-48 bottom-36 left-48 md:left-auto md:right-12  -translate-x-1/2 md:translate-x-0 p-6 md:p-8 right-12 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
+        <h1 className="md:text-3xl text-2xl font-bold mb-6 text-black">
           Welcome, {name}!
         </h1>
 

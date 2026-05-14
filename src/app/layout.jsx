@@ -19,7 +19,7 @@ export const metadata = {
 
 
   openGraph: {
-    title: "Special Celebration of Alhaja Riskat Adelabu",
+    title: "Special Celebration of Alhaja Risikat Adelabu",
     description: "Official Invitation",
     images: [
       {

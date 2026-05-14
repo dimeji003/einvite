@@ -43,6 +43,20 @@ export default function InvitePage() {
           />
         </a>
 
+        
+        <div className="flex flex-row gap-2 items-center">
+          <span>Venue:</span>
+          <span className="text-blue-500 text-xl font-bold">
+            Iceland Civic Center
+          </span>
+        </div>
+        {/* INFO */}
+        <div className="flex flex-row gap-2 items-center">
+          <span>Date:</span>
+          <span className="text-blue-500 text-xl font-bold">
+            June 13, 2026
+          </span>
+        </div>
         {/* INFO */}
         <div className="flex flex-row gap-2 items-center">
           <span>Seat Number:</span>
