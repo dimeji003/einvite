@@ -12,8 +12,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://einvite-bi4o-opal.vercel.app/"),
+
   title: "Celebration of life of Alhaja Riskat Adelabu",
   description: "Invitation for Burial Ceremony",
+
+
+  openGraph: {
+    title: "Special Celebration of Alhaja Riskat Adelabu",
+    description: "Official Invitation",
+    images: [
+      {
+        url: "/assets/riskat.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
