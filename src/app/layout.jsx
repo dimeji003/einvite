@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL("https://einvite-bi4o-opal.vercel.app/"),
 
-  title: "Celebration of life of Alhaja Riskat Adelabu",
+  title: "Celebration of life of Alhaja Risikat Adejoke Adelabu",
   description: "Invitation for Burial Ceremony",
 
 

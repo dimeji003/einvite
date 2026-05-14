@@ -14,16 +14,27 @@ export default function AcceptClient() {
 
   return (
     <div
-      className="min-h-screen relative flex items-center justify-center p-4"
+      className="min-h-dvh relative flex items-center justify-center p-4 "
       style={{
         backgroundImage: "url('/assets/riskat.png')",
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: '10% center',
+        backgroundRepeat: 'no-repeat',
+       
         
       }}
     >
-      <div className="bg-white absolute bottom-36 p-8 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
-        <h1 className="text-2xl font-bold mb-6 text-black">
+      <style jsx>{`
+    @media (min-width: 768px) {
+      div {
+        background-image: url('/assets/riskatlaptop.png') !important;
+        
+        backgroundSize: 'cover',
+      }
+    }
+  `}</style>
+      <div className="bg-white absolute md:bottom-20 bottom-7 left-1/2 md:left-auto md:right-12  -translate-x-1/2 md:translate-x-0 p-6 md:p-8 right-12 rounded-2xl shadow-lg text-center max-w-md w-[80%]">
+        <h1 className="text-3xl font-bold mb-6 text-black">
           Welcome, {name}!
         </h1>
 

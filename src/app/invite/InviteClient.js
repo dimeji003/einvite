@@ -32,7 +32,7 @@ export default function InvitePage() {
 
         {/* LOCATION ICON */}
         <a
-          href="https://maps.app.goo.gl/SDirE17etSQ5hP3V7?g_st=ic"
+          href="https://www.google.com/maps/place/Iceland+Civic+Centre/@6.6028139,3.2897771,17z/data=!4m14!1m7!3m6!1s0x103b91a62db163b7:0x46887f7328dff9c9!2sIceland+Civic+Centre!8m2!3d6.6028139!4d3.292352!16s%2Fg%2F11h9mlr86n!3m5!1s0x103b91a62db163b7:0x46887f7328dff9c9!8m2!3d6.6028139!4d3.292352!16s%2Fg%2F11h9mlr86n!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="flex justify-center"
