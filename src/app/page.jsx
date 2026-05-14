@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-amber-50 p-4">
       <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-3xl shadow-lg w-full max-w-md text-center">
-        <h1 className="text-3xl text-black font-bold mb-4">Special Celebration of Alhaja Riskat Adelabu</h1>
+        <h1 className="text-3xl text-black font-bold mb-4">Special Celebration of Alhaja Risikat Adelabu</h1>
         <p className="text-gray-600 mb-6">Enter your name to view your invitation</p>
         <input
           type="text"
