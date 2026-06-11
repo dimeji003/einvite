@@ -30,8 +30,8 @@ export const guests = [
   // =========================
   // TABLE 3 (VIP)
   // =========================
-  { name: "OFFICER'S TABLE", seat: "Table 3 — Seat 1", access: "VIP" },
-  { name: "OFFICER'S TABLE", seat: "Table 3 — Seat 2", access: "VIP" },
+  { name: "Kasunmu 1", seat: "Table 3 — Seat 1", access: "VIP" },
+  { name: "Kasunmu 2", seat: "Table 3 — Seat 2", access: "VIP" },
   { name: "OFFICER'S TABLE", seat: "Table 3 — Seat 3", access: "VIP" },
   { name: "OFFICER'S TABLE", seat: "Table 3 — Seat 4", access: "VIP" },
   { name: "OFFICER'S TABLE", seat: "Table 3 — Seat 5", access: "VIP" },
@@ -67,7 +67,7 @@ export const guests = [
   { name: "D BANJ", seat: "Table 5 — Seat 7", access: "REGULAR" },
   { name: "LATI COURAGE", seat: "Table 5 — Seat 8", access: "REGULAR" },
   { name: "LATI COURAGE", seat: "Table 5 — Seat 9", access: "REGULAR" },
-  { name: "", seat: "Table 5 — Seat 10", access: "REGULAR" },
+  { name: "ENE", seat: "Table 5 — Seat 10", access: "REGULAR" },
 
   // =========================
   // TABLE 6 (REGULAR)
@@ -229,8 +229,8 @@ export const guests = [
   // =========================
   { name: "DEEJAY 3", seat: "Table 17 — Seat 1", access: "REGULAR" },
   { name: "DEEJAY 4", seat: "Table 17 — Seat 2", access: "REGULAR" },
-  { name: "", seat: "Table 17 — Seat 3", access: "REGULAR" },
-  { name: "", seat: "Table 17 — Seat 4", access: "REGULAR" },
+  { name: "AYA OBA", seat: "Table 17 — Seat 3", access: "REGULAR" },
+  { name: "Blessing", seat: "Table 17 — Seat 4", access: "REGULAR" },
   { name: "", seat: "Table 17 — Seat 5", access: "REGULAR" },
   { name: "", seat: "Table 17 — Seat 6", access: "REGULAR" },
   { name: "", seat: "Table 17 — Seat 7", access: "REGULAR" },
@@ -385,8 +385,8 @@ export const guests = [
   { name: "IBRAHIM NOFISAT", seat: "Table 28 — Seat 4", access: "REGULAR" },
   { name: "AZEEZ ORI EJO", seat: "Table 28 — Seat 5", access: "REGULAR" },
   { name: "SHOLA OGUNLOLU", seat: "Table 28 — Seat 6", access: "REGULAR" },
-  { name: "", seat: "Table 28 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 28 — Seat 8", access: "REGULAR" },
+  { name: "WAKILI", seat: "Table 28 — Seat 7", access: "REGULAR" },
+  { name: "MRS OLUWATOMI", seat: "Table 28 — Seat 8", access: "REGULAR" },
   { name: "", seat: "Table 28 — Seat 9", access: "REGULAR" },
   { name: "", seat: "Table 28 — Seat 10", access: "REGULAR" },
 
@@ -428,8 +428,8 @@ export const guests = [
   { name: "MR WASIU UNITY", seat: "Table 31 — Seat 5", access: "REGULAR" },
   { name: "UNITY 3", seat: "Table 31 — Seat 6", access: "REGULAR" },
   { name: "MRS KOFOWOROLA", seat: "Table 31 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 31 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 31 — Seat 9", access: "REGULAR" },
+  { name: "OYIZA", seat: "Table 31 — Seat 8", access: "REGULAR" },
+  { name: "KENNY", seat: "Table 31 — Seat 9", access: "REGULAR" },
   { name: "", seat: "Table 31 — Seat 10", access: "REGULAR" },
 
   { name: "SIR", seat: "Table 32 — Seat 1", access: "REGULAR" },
@@ -447,23 +447,23 @@ export const guests = [
   { name: "IYO WIFE", seat: "Table 33 — Seat 2", access: "REGULAR" },
   { name: "APO", seat: "Table 33 — Seat 3", access: "REGULAR" },
   { name: "OLAJUMOKE OKIJI", seat: "Table 33 — Seat 4", access: "REGULAR" },
-  { name: "", seat: "Table 33 — Seat 5", access: "REGULAR" },
-  { name: "", seat: "Table 33 — Seat 6", access: "REGULAR" },
-  { name: "", seat: "Table 33 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 33 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 33 — Seat 9", access: "REGULAR" },
-  { name: "", seat: "Table 33 — Seat 10", access: "REGULAR" },
+  { name: "OLUWATOYIN KHADIJAT", seat: "Table 33 — Seat 5", access: "REGULAR" },
+  { name: "GARUBAR HAMINAT", seat: "Table 33 — Seat 6", access: "REGULAR" },
+  { name: "OBA NOWNOW", seat: "Table 33 — Seat 7", access: "REGULAR" },
+  { name: "WASIU SHEKONI 1", seat: "Table 33 — Seat 8", access: "REGULAR" },
+  { name: "WASIU SHEKONI 2", seat: "Table 33 — Seat 9", access: "REGULAR" },
+  { name: "WASIU SHEKONI 3", seat: "Table 33 — Seat 10", access: "REGULAR" },
 
   { name: "BABA RASHIDAT", seat: "Table 34 — Seat 1", access: "REGULAR" },
   { name: "LATEEF", seat: "Table 34 — Seat 2", access: "REGULAR" },
   { name: "ABDULLAHI", seat: "Table 34 — Seat 3", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 4", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 5", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 6", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 9", access: "REGULAR" },
-  { name: "", seat: "Table 34 — Seat 10", access: "REGULAR" },
+  { name: "AJAYI 1", seat: "Table 34 — Seat 4", access: "REGULAR" },
+  { name: "AJAYI 2", seat: "Table 34 — Seat 5", access: "REGULAR" },
+  { name: "BAYO", seat: "Table 34 — Seat 6", access: "REGULAR" },
+  { name: "BABA NUSI", seat: "Table 34 — Seat 7", access: "REGULAR" },
+  { name: "OLALEYE", seat: "Table 34 — Seat 8", access: "REGULAR" },
+  { name: "ELERU", seat: "Table 34 — Seat 9", access: "REGULAR" },
+  { name: "ABIJA", seat: "Table 34 — Seat 10", access: "REGULAR" },
 
   { name: "BAYO OLUSEGUN", seat: "Table 35 — Seat 1", access: "REGULAR" },
   { name: "ANUOLUWAPO OLUSEGUN", seat: "Table 35 — Seat 2", access: "REGULAR" },
@@ -567,11 +567,11 @@ export const guests = [
   { name: "IYA OKIKI", seat: "Table 43 — Seat 2", access: "REGULAR" },
   { name: "MUM ANAS", seat: "Table 43 — Seat 3", access: "REGULAR" },
   { name: "DOYIN'S FRIEND", seat: "Table 43 — Seat 4", access: "REGULAR" },
-  { name: "", seat: "Table 43 — Seat 5", access: "REGULAR" },
-  { name: "", seat: "Table 43 — Seat 6", access: "REGULAR" },
-  { name: "", seat: "Table 43 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 43 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 43 — Seat 9", access: "REGULAR" },
+  { name: "SUNDAY", seat: "Table 43 — Seat 5", access: "REGULAR" },
+  { name: "IYA ANAS", seat: "Table 43 — Seat 6", access: "REGULAR" },
+  { name: "TEMPO", seat: "Table 43 — Seat 7", access: "REGULAR" },
+  { name: "IYA GOKE", seat: "Table 43 — Seat 8", access: "REGULAR" },
+  { name: "IBRAHIM", seat: "Table 43 — Seat 9", access: "REGULAR" },
   { name: "", seat: "Table 43 — Seat 10", access: "REGULAR" },
 
   // =========================
@@ -612,8 +612,8 @@ export const guests = [
   { name: "TOLA", seat: "Table 46 — Seat 5", access: "REGULAR" },
   { name: "FUNKE", seat: "Table 46 — Seat 6", access: "REGULAR" },
   { name: "ESTHER", seat: "Table 46 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 46 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 46 — Seat 9", access: "REGULAR" },
+  { name: "ASHADE ADEJUMOKE FAUSAT", seat: "Table 46 — Seat 8", access: "REGULAR" },
+  { name: "ASHADE OLANREWAJU CHRISTOPHER", seat: "Table 46 — Seat 9", access: "REGULAR" },
   { name: "", seat: "Table 46 — Seat 10", access: "REGULAR" },
 
   // =========================
@@ -628,7 +628,7 @@ export const guests = [
   { name: "ROFIAT", seat: "Table 47 — Seat 7", access: "REGULAR" },
   { name: "ARIYO", seat: "Table 47 — Seat 8", access: "REGULAR" },
   { name: "MODUPE", seat: "Table 47 — Seat 9", access: "REGULAR" },
-  { name: "", seat: "Table 47 — Seat 10", access: "REGULAR" },
+  { name: "ADAMS", seat: "Table 47 — Seat 10", access: "REGULAR" },
 
   // =========================
   // TABLE 48
@@ -639,9 +639,9 @@ export const guests = [
   { name: "SHARAFA", seat: "Table 48 — Seat 4", access: "REGULAR" },
   { name: "ALHAJI SEMIU", seat: "Table 48 — Seat 5", access: "REGULAR" },
   { name: "ALHAJI DEJO", seat: "Table 48 — Seat 6", access: "REGULAR" },
-  { name: "", seat: "Table 48 — Seat 7", access: "REGULAR" },
-  { name: "", seat: "Table 48 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 48 — Seat 9", access: "REGULAR" },
+  { name: "OLORI EBI AWO", seat: "Table 48 — Seat 7", access: "REGULAR" },
+  { name: "DAVID", seat: "Table 48 — Seat 8", access: "REGULAR" },
+  { name: "KUNLE ADEROJU", seat: "Table 48 — Seat 9", access: "REGULAR" },
   { name: "", seat: "Table 48 — Seat 10", access: "REGULAR" },
 
   // =========================
@@ -669,10 +669,20 @@ export const guests = [
   { name: "AJE 3", seat: "Table 50 — Seat 6", access: "REGULAR" },
   { name: "AJE 4", seat: "Table 50 — Seat 7", access: "REGULAR" },
   { name: "AJE 5", seat: "Table 50 — Seat 8", access: "REGULAR" },
-  { name: "", seat: "Table 50 — Seat 9", access: "REGULAR" },
-  { name: "", seat: "Table 50 — Seat 10", access: "REGULAR" },
+  { name: "LAFISE", seat: "Table 50 — Seat 9", access: "REGULAR" },
+  { name: "EJIKE", seat: "Table 50 — Seat 10", access: "REGULAR" },
 
 
+  { name: "MILLICENT", seat: "Table 51 — Seat 1", access: "REGULAR" },
+  { name: "OLAOLUWA", seat: "Table 51 — Seat 2", access: "REGULAR" },
+  { name: "CHINONYE", seat: "Table 51 — Seat 3", access: "REGULAR" },
+  { name: "ELLEN", seat: "Table 51 — Seat 4", access: "REGULAR" },
+  { name: "AMANU UKAONU", seat: "Table 51 — Seat 5", access: "REGULAR" },
+  { name: "SAMSON BEJIDE", seat: "Table 51 — Seat 6", access: "REGULAR" },
+  { name: "CHINEDU ILOANI", seat: "Table 51 — Seat 7", access: "REGULAR" },
+  { name: "MERCY", seat: "Table 51 — Seat 8", access: "REGULAR" },
+  { name: "AMINAT", seat: "Table 51 — Seat 9", access: "REGULAR" },
+  { name: "JOSEPHINE", seat: "Table 51 — Seat 10", access: "REGULAR" },
 
 
 
