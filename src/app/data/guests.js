@@ -160,7 +160,7 @@ export const guests = [
   { name: "MR YUSUF", seat: "Table 12 — Seat 1", access: "REGULAR" },
   { name: "ALHAJI SEMIU", seat: "Table 12 — Seat 2", access: "REGULAR" },
   { name: "ALHAJI DEJO", seat: "Table 12 — Seat 3", access: "REGULAR" },
-  { name: "Adenowo farunbi", seat: "Table 12 — Seat 4", access: "REGULAR" },
+  { name: "Adenowo farounbi", seat: "Table 12 — Seat 4", access: "REGULAR" },
   { name: "Vivian", seat: "Table 12 — Seat 5", access: "REGULAR" },
   { name: "Salty", seat: "Table 12 — Seat 6", access: "REGULAR" },
   { name: "", seat: "Table 12 — Seat 7", access: "REGULAR" },
